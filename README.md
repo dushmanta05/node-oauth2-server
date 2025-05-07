@@ -1,4 +1,4 @@
-# Node OAuth 2.0 Server
+# Node OAuth 2.0 Identity Provider Server
 
 ## Description
 

@@ -1,16 +1,22 @@
 {
   "name": "node-oauth2-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "OAuth 2.0 Identity Provider Server",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
-  "keywords": [],
+  "keywords": [
+    "oauth",
+    "oidc"
+  ],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.10.0",
   "dependencies": {
+    "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "mongoose": "^8.14.1",
     "oidc-provider": "^9.1.1"
